@@ -6,6 +6,7 @@ const {
   createPost,
   getPostsByUser,
   getHomeFeed,
+  getExploreFeed,
 
   likePost,
   unlikePost,
