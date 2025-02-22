@@ -1,13 +1,12 @@
 // routes/postRoutes.js
 const express = require('express');
 const router = express.Router();
-const { getExploreFeed } = require('../controllers/postController');
 const upload = require('../middleware/cloudinaryMulter');
 const {
   createPost,
   getPostsByUser,
   getHomeFeed,
-  getExploreFeed,
+
   likePost,
   unlikePost,
   searchPosts,
